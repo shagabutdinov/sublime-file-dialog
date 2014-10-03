@@ -69,3 +69,9 @@ so its shortcuts will work here.
 | Open                           | ctrl+u, ctrl+o    | FileDialog: Open       |
 | Rename                         | ctrl+u, ctrl+r    | FileDialog: Rename     |
 | Complete operation             | tab               |                        |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-quick-search-enhanced
+- https://github.com/shagabutdinov/sublime-folder-files
