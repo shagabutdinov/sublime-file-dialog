@@ -1,0 +1,22 @@
+[
+  {
+    "caption": "FileDialog: Save",
+    "command": "save_enhanced"
+  },
+
+  {
+    "caption": "FileDialog: Save as...",
+    "command": "prompt_save_as_enhanced"
+  },
+
+  {
+    "caption": "FileDialog: Open",
+    "command": "prompt_open_file_enhanced"
+  },
+
+  {
+    "caption": "FileDialog: Rename",
+    "command": "prompt_rename_file"
+  }
+
+]

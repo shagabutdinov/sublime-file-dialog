@@ -1,0 +1,30 @@
+[
+  {
+    "keys": ["tab"],
+    "command": "save_enhanced_complete",
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "save"}
+    ]
+  },
+
+  {
+    "keys": ["ctrl+s"],
+    "command": "save_enhanced"
+  },
+
+  {
+    "keys": ["ctrl+shift+s"],
+    "command": "prompt_save_as_enhanced"
+  },
+
+  {
+    "keys": ["ctrl+u", "ctrl+r"],
+    "command": "prompt_rename_file"
+  },
+
+  {
+    "keys": ["ctrl+u", "ctrl+o"],
+    "command": "prompt_open_file_enhanced"
+  },
+
+]
