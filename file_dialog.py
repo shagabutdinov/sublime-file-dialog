@@ -5,10 +5,15 @@ import re
 import os
 from os import path
 
-from QuickSearchEnhanced import quick_search
+try:
+  from QuickSearchEnhanced import quick_search
 
-from FolderFiles.folder_files import(FolderFiles, open_file_or_folder_by_panel,
-  open_folder_by_panel)
+  from FolderFiles.folder_files import(FolderFiles, open_file_or_folder_by_panel,
+    open_folder_by_panel)
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "FileDialog plugin for installation instructions; to disable this " +
+   "message remove this plugin")
 
 class PromptOpenFileEnhanced(sublime_plugin.TextCommand):
   def run(self, edit, path = None):

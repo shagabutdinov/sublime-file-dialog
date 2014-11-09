@@ -3,28 +3,41 @@
     "keys": ["tab"],
     "command": "save_enhanced_complete",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "save"}
     ]
   },
 
   {
     "keys": ["ctrl+s"],
-    "command": "save_enhanced"
+    "command": "save_enhanced",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+shift+s"],
-    "command": "prompt_save_as_enhanced"
+    "command": "prompt_save_as_enhanced",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+u", "ctrl+r"],
-    "command": "prompt_rename_file"
+    "command": "prompt_rename_file",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+u", "ctrl+o"],
-    "command": "prompt_open_file_enhanced"
+    "command": "prompt_open_file_enhanced",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
 ]

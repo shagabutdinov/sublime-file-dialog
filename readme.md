@@ -15,7 +15,7 @@ quite usable after a bit training.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-file-dialog/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/file_dialog.gif "Demo")
 
 
 ### WARNING
@@ -73,5 +73,5 @@ so its shortcuts will work here.
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-quick-search-enhanced
-- https://github.com/shagabutdinov/sublime-folder-files
+* [QuickSearchEnhanced](https://github.com/shagabutdinov/sublime-quick-search-enhanced)
+* [FolderFiles](https://github.com/shagabutdinov/sublime-folder-files)
