@@ -10,10 +10,11 @@ try:
 
   from FolderFiles.folder_files import(FolderFiles, open_file_or_folder_by_panel,
     open_folder_by_panel)
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "FileDialog plugin for installation instructions; to disable this " +
-   "message remove this plugin")
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 class PromptOpenFileEnhanced(sublime_plugin.TextCommand):
   def run(self, edit, path = None):
